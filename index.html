@@ -1,89 +1,77 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Epicodus Track Survey</title>
-</head>
-
-<body>
-  <div class="container">
-    <h1>Epicodus Track Survey</h1>
-    <h2>Answer the following questions to help you decide which track is best for you!</h2>
-    <p>
-      Choosing the right path can be challenging but Epicodus is here to help make that decision a little easier. The result of this survey should reveal the track that is the best fit for you.
-      <p>
-        <br>
-        <img src="img/path.jpg" alt="Picture of two paths." width=490 height=350>
-        <br>
-        <br>
-        <p>1. Would you like to work on mobile sites and apps?
-          <p>
-            <form id="one">
-              <select class="form-control" id="format">
+   <head>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Epicodus Track Survey</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Epicodus Track Survey</h1>
+         <h2>Answer the following questions to help you decide which track is best for you!</h2>
+         <p>Choosing the right path can be challenging but Epicodus is here to help make that decision a little easier. The result of this survey should reveal the track that is the best fit for you.<p>
+            <br>
+            <img src="img/path.jpg" alt="Picture of two paths." width=490 height=350>
+            <br>
+            <br>
+         <p>1. Would you like to work on mobile sites and apps?<p>
+         <form id="one">
+            <select class="form-control" id="format">
                <option value="Yes">Yes</option>
                <option value="No">No</option>
             </select>
-              <br>
-              <p>2. Would you like to work for a big company or a small startup size company?
-                <p>
-                  <div class="radio">
-                    <label>
+            <br>
+            <p>2. Would you like to work for a big company or a small startup size company?<p>
+            <div class="radio">
+               <label>
                <input type="radio" name="size" value="big" checked>
                Big Company
                </label>
-                  </div>
-                  <div class="radio">
-                    <label>
+            </div>
+            <div class="radio">
+               <label>
                <input type="radio" name="size" value="small">
                Small Company
                </label>
-                  </div>
-                  <p>3. Backend or Frontend?
-                    <p>
-                      <p>(Wait, what's the difference?)<br><a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend" target="_blank">Backend vs. Frontend</a>
-                        <p>
-                          <br>
-                          <select class="form-control" id="position">
+            </div>
+            <p>3. Backend or Frontend?<p>
+            <p>(Wait, what's the difference?)<br><a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend" target="_blank">Backend vs. Frontend</a><p>
+               <br>
+               <select class="form-control" id="position">
                   <option value="Frontend">Frontend</option>
                   <option value="Backend">Backend</option>
                </select>
-                          <br>
-                          <p>4. True or false? You prefer to work on the style and design of a website more than the analytics of it.
-                            <p>
-                              <select class="form-control" id="boolean">
+               <br>
+            <p>4. True or false? You prefer to work on the style and design of a website more than the analytics of it?<p>
+               <select class="form-control" id="boolean">
                   <option value="True">True</option>
                   <option value="False">False</option>
                </select>
-                              <br>
-                              <p>5. Would you prefer to learn a more commonly used language or specific one?
-                                <p>
-                                  <div class="radio">
-                                    <label>
+               <br>
+            <p>5. Would you prefer to learn a more commonly used language or specific one?<p>
+            <div class="radio">
+               <label>
                <input type="radio" name="popular" value="pop" checked>
                Popular
                </label>
-                                  </div>
-                                  <div class="radio">
-                                    <label>
+            </div>
+            <div class="radio">
+               <label>
                <input type="radio" name="popular" value="specific">
                Specific
                </label>
-                                  </div>
-                                  <br>
-                                  <button type="submit" class="btn">Find the most suitable track for me.</button>
-                                  <br>
-                                  <br>
-                                  <br>
-            </form>
-            <div id="answer">
-              <p>The <span id="result"></span> track seems like a good fit for you.
-                <p>
             </div>
-  </div>
-</body>
-
+            <br>
+            <button type="submit" class="btn">Find the most suitable track for me.</button>
+            <br>
+            <br>
+            <br>
+         </form>
+         <div id="answer">
+            <p>The <span id="result"></span> track seems like a good fit for you.<p>
+         </div>
+      </div>
+   </body>
 </html>
