@@ -1,12 +1,12 @@
-# _{Epicodus Track Survey}_
+# _Epicodus Track Survey_
 
-#### _{Survey for Epicodus}, {06.09.2017}_
+#### _Survey for Epicodus, 06.09.2017_
 
-#### By _**{Karla Buckner}**_
+#### By _**Karla Buckner**_
 
 ## Description
 
-_{This survey helps direct potential Epicodus students towards a track that is suitable for him or her. It uses jQuery and JavaScript functions.}_
+_This survey helps direct potential Epicodus students towards a track that is suitable for him or her. It uses jQuery and JavaScript functions._
 
 ## Setup/Installation Requirements
 
@@ -14,21 +14,21 @@ _{This survey helps direct potential Epicodus students towards a track that is s
 
 ## Known Bugs
 
-_{There are no known bugs at this time.}_
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_{For support contact: kmb2662@gmail.com}_
+_For support contact: kmb2662@gmail.com_
 
 ## Technologies Used
 
-_{Bootstrap
+_Bootstrap
   Markdown
   JavaScript
-  jQuery}_
+  jQuery_
 
 ### License
 
-*{This is licensed under the MIT license.}*
+*This is licensed under the MIT license.*
 
-Copyright (c) 2017 **_{Karla Buckner}_**
+Copyright (c) 2017 **_Karla Buckner_**
